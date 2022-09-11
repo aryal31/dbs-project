@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /*For Heading and Titles */
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); /*For writing Content */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1B1B1B;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Page ko CSS */
+ 
+.banner{
+    padding-top: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.banner h1{
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FC6C85;
+}
+.banner p span{
+    cursor: pointer;
+    font-size: 35px;
+    color: cyan;
+
+}
+.banner p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    color: white;
+}
+.banner .Origin{
+    margin-top: 100px;
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FC6C85;
+}
+.banner .Origin_p{
+    text-align: left;
+    font-style: normal;
+    color: white;
+}
+.banner .org{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+}
+.banner .Origin2{
+    margin-top: 100px;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FC6C85;
+}
+.banner .Origin_p2{
+    text-align: right;
+    color: white;
+}
+.banner .val{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    cursor: pointer;
+}
+.banner .Origin3{
+    margin-top: 100px;
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FC6C85;
+}
+.banner .Origin_p3{
+    text-align: left;
+    color: white;
+}
+.banner .cs{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+}
+.banner .Origin4{
+    margin-top: 100px;
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FC6C85;
+}
+.banner .Origin_p4{
+    text-align: right;
+    color: white;
+}
+.banner .r6s{
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+}
+.banner ul{
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    margin-top: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    
+}
+.banner ul li{
+    margin-top: 30px;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    color: white;
+}
+
+
+.table2{
+    
+    border:  5px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color:white;
+}
+
+.table2 td{
+    font-family: 'Press Start 2P','Courier New', Courier, monospace;
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.details td{
+    background-color:#081a14;
+}
+
+.table2 tr:nth-child(even){
+    background-color: #2c302f;
+}
+
+.table2 tr:nth-child(odd){
+    background-color: #49504f;
+}
+
+.table2 tr:hover{
+    background-color: #4eb3b3;
+}
+
